@@ -1,0 +1,391 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b27f63b15b2de94bace4eaa0806919f, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  layers:
+    aimLayer:
+      serializedVersion: 2
+      m_Bits: 10049
+    buttonLayer:
+      serializedVersion: 2
+      m_Bits: 16384
+    withoutEnemyLayer:
+      serializedVersion: 2
+      m_Bits: 1793
+    stuffLayer:
+      serializedVersion: 2
+      m_Bits: 1024
+    enemyLayer:
+      serializedVersion: 2
+      m_Bits: 64
+    cutObstacleLayer:
+      serializedVersion: 2
+      m_Bits: 2048
+    laserMask:
+      serializedVersion: 2
+      m_Bits: 1
+    playerMask:
+      serializedVersion: 2
+      m_Bits: 128
+    obstacleMask:
+      serializedVersion: 2
+      m_Bits: 8704
+  stages:
+    stages:
+    - startLevel: 1
+      endLevel: 5
+    - startLevel: 6
+      endLevel: 13
+    - startLevel: 14
+      endLevel: 21
+    - startLevel: 22
+      endLevel: 29
+    - startLevel: 30
+      endLevel: 37
+    - startLevel: 38
+      endLevel: 45
+    - startLevel: 46
+      endLevel: 53
+    - startLevel: 54
+      endLevel: 61
+    - startLevel: 62
+      endLevel: 69
+    - startLevel: 70
+      endLevel: 77
+    - startLevel: 78
+      endLevel: 80
+    rewardLevels: 03000000070000000b0000000e0000001200000016000000190000001d0000002100000024000000280000002c0000002f00000033000000370000003a0000003e0000004200000045000000490000004d00000050000000
+    bossLevels: 050000000d000000150000001d000000
+    finalLevels: 050000000d000000150000001d000000250000002d000000350000003d000000450000004d00000050000000
+  stuffOnLevel:
+  - level: 6
+    stuffIndex: 1
+    image: {fileID: 21300000, guid: 77dd71a06122eda4b97e79b1cd6109e7, type: 3}
+    itemPrefab: {fileID: 4980313300015234, guid: e59e450acd37dca4783917f462cb5dd3, type: 3}
+  - level: 10
+    stuffIndex: 2
+    image: {fileID: 21300000, guid: ad49624d0cbc51446a0eadd9b6a4797e, type: 3}
+    itemPrefab: {fileID: 4143888337635614, guid: 03342e66e5407bf428efb9d26a1a98a6, type: 3}
+  - level: 12
+    stuffIndex: 3
+    image: {fileID: 21300000, guid: ca19202a22332dd498aca23dd203951e, type: 3}
+    itemPrefab: {fileID: 4983619975630660, guid: 0e1adcb2a3c8b4540a76ca2fbd24ab6e, type: 3}
+  - level: 16
+    stuffIndex: 4
+    image: {fileID: 21300000, guid: 4eeccd3f5725eae4f9e7e218fd3d8745, type: 3}
+    itemPrefab: {fileID: 4213244140700348, guid: 15659a1295a8003458acb20ad12d3bb5, type: 3}
+  - level: 18
+    stuffIndex: 5
+    image: {fileID: 21300000, guid: d91234bba0089924db3f1a7bb1ef2818, type: 3}
+    itemPrefab: {fileID: 4817593037029170, guid: 404f551f46381734ab352032376e3e26, type: 3}
+  - level: 20
+    stuffIndex: 6
+    image: {fileID: 21300000, guid: b09023a1965ab6f44b26c9544561d0fe, type: 3}
+    itemPrefab: {fileID: 4826872604404478, guid: 9ea7cc769a6cef04aade5b31b9301bcb, type: 3}
+  - level: 23
+    stuffIndex: 7
+    image: {fileID: 21300000, guid: ee279208b01512f428ce8abaabbfdd9d, type: 3}
+    itemPrefab: {fileID: 4976031946294948, guid: 358631a837d40d742a8c3a02f25936a2, type: 3}
+  - level: 26
+    stuffIndex: 8
+    image: {fileID: 21300000, guid: c3686a5131e5afd4c94e848dc975f7ad, type: 3}
+    itemPrefab: {fileID: 4328076313701242, guid: 34024b30e04b00e4c86c175ee0aadb71, type: 3}
+  - level: 28
+    stuffIndex: 9
+    image: {fileID: 21300000, guid: 2d50af0ba8b6d374f916cc6b58daa82e, type: 3}
+    itemPrefab: {fileID: 4689773125806684, guid: e4bfa430cd9dbf74bbb49d9800a997ce, type: 3}
+  - level: 32
+    stuffIndex: 10
+    image: {fileID: 21300000, guid: ac8bec561329e0b4690bcb3fbc1dc295, type: 3}
+    itemPrefab: {fileID: 4691404197614120, guid: 2cd70a04fd3127c4e8e29d2b0633241f, type: 3}
+  - level: 34
+    stuffIndex: 11
+    image: {fileID: 21300000, guid: 5648ef565785d10438bbabd298e4eb85, type: 3}
+    itemPrefab: {fileID: 4124751651493898, guid: f6c9b89cdd2447a4d9b894bbd792b3cc, type: 3}
+  - level: 36
+    stuffIndex: 12
+    image: {fileID: 21300000, guid: d214fd977dd667347915ab43350ffcf5, type: 3}
+    itemPrefab: {fileID: 4847719781105171, guid: 96fa58e8b53a7d04b84e7312df8ae6f9, type: 3}
+  - level: 39
+    stuffIndex: 13
+    image: {fileID: 21300000, guid: 61afd0c5b0d3f7843b2a7f7e4ebd49bf, type: 3}
+    itemPrefab: {fileID: 4756912784547552, guid: b1ff12a6b8dfdd84db5a45216f03dbe5, type: 3}
+  - level: 42
+    stuffIndex: 14
+    image: {fileID: 21300000, guid: c7fcad24777156e49ab6ff86702fd16d, type: 3}
+    itemPrefab: {fileID: 4640498126934466, guid: ab779263f3e5f174eb46704132a1d5e5, type: 3}
+  - level: 44
+    stuffIndex: 15
+    image: {fileID: 21300000, guid: 9c97bbdbab4be7846a7bb9fe5b4b18cc, type: 3}
+    itemPrefab: {fileID: 4171848116612587, guid: 754f1acad32b1b64daf35b32e539376b, type: 3}
+  - level: 47
+    stuffIndex: 16
+    image: {fileID: 21300000, guid: 08b69b0ab4fc8d64b932977842fa86f7, type: 3}
+    itemPrefab: {fileID: 4651512389179510, guid: 55925bb61eb80904ca661388d7c1942f, type: 3}
+  - level: 50
+    stuffIndex: 17
+    image: {fileID: 21300000, guid: b35343b3a3824a34880eb62a0b2e3033, type: 3}
+    itemPrefab: {fileID: 4878449229928940, guid: e38aa9d9cfd2e514085d0116ad234ba2, type: 3}
+  - level: 52
+    stuffIndex: 18
+    image: {fileID: 21300000, guid: 95effc36422702040b867c51f16b3471, type: 3}
+    itemPrefab: {fileID: 4108762464972198, guid: 0e14e58f7e0a34341b421ea557cf9e3f, type: 3}
+  rewards:
+  - id: 0
+    level: 0
+    icon: {fileID: 21300000, guid: 0574d772c55206a46a4480341f8aa4f4, type: 3}
+    type: 0
+    rare: 0
+    details:
+      enText: New Character !
+      ruText: "\u041D\u043E\u0432\u044B\u0439 \u0413\u0435\u0440\u043E\u0439 !"
+      enName: Spider-Man
+      ruName: "\u0427\u0435\u043B\u043E\u0432\u0435\u043A-\u043F\u0430\u0443\u043A"
+  - id: 1
+    level: 3
+    icon: {fileID: 21300000, guid: 91a93161ace1282408503524037f7cf8, type: 3}
+    type: 0
+    rare: 1
+    details:
+      enText: New Character !
+      ruText: "\u041D\u043E\u0432\u044B\u0439 \u0413\u0435\u0440\u043E\u0439 !"
+      enName: Pudding
+      ruName: "\u041F\u0443\u0434\u0438\u043D\u0433"
+  - id: 0
+    level: 0
+    icon: {fileID: 21300000, guid: e99012e1b46b948408650d7ba50aadfe, type: 3}
+    type: 1
+    rare: 0
+    details:
+      enText: New Rope !
+      ruText: "\u041D\u043E\u0432\u0430\u044F \u0412\u0435\u0440\u0435\u0432\u043A\u0430
+        !"
+      enName: Web
+      ruName: "\u041F\u0430\u0443\u0442\u0438\u043D\u0430"
+  - id: 2
+    level: 7
+    icon: {fileID: 21300000, guid: a2d7be4694be396479d6847aa2a6d3e6, type: 3}
+    type: 0
+    rare: 2
+    details:
+      enText: New Character !
+      ruText: "\u041D\u043E\u0432\u044B\u0439 \u0413\u0435\u0440\u043E\u0439 !"
+      enName: Wanda
+      ruName: "\u0412\u0430\u043D\u0434\u0430"
+  - id: 3
+    level: 14
+    icon: {fileID: 21300000, guid: 5f2c3341287ac884e991db07d2577c41, type: 3}
+    type: 0
+    rare: 2
+    details:
+      enText: New Character !
+      ruText: "\u041D\u043E\u0432\u044B\u0439 \u0413\u0435\u0440\u043E\u0439 !"
+      enName: "\u0420\u044B\u0446\u0430\u0440\u044C \u0432\u043E\u0438\u043D"
+      ruName: "\u0420\u044B\u0446\u0430\u0440\u044C \u0432\u043E\u0438\u043D"
+  - id: 4
+    level: 18
+    icon: {fileID: 21300000, guid: 66db67530272f76499c990c6dc1ecfa4, type: 3}
+    type: 0
+    rare: 0
+    details:
+      enText: New Character !
+      ruText: "\u041D\u043E\u0432\u044B\u0439 \u0413\u0435\u0440\u043E\u0439 !"
+      enName: Red Ninja
+      ruName: "\u041A\u0440\u0430\u0441\u043D\u0430\u044F \u043D\u0438\u043D\u0434\u0437\u044F"
+  - id: 5
+    level: 25
+    icon: {fileID: 21300000, guid: 4f99f6037754c874e8a198ef1a651885, type: 3}
+    type: 0
+    rare: 1
+    details:
+      enText: New Character !
+      ruText: "\u041D\u043E\u0432\u044B\u0439 \u0413\u0435\u0440\u043E\u0439 !"
+      enName: Poison Man
+      ruName: "\u0427\u0435\u043B\u043E\u0432\u0435\u043A-\u044F\u0434"
+  - id: 1
+    level: 11
+    icon: {fileID: 21300000, guid: 8098373b788ad9f439a2d71d5305bda1, type: 3}
+    type: 1
+    rare: 1
+    details:
+      enText: New Rope !
+      ruText: "\u041D\u043E\u0432\u0430\u044F \u0412\u0435\u0440\u0435\u0432\u043A\u0430
+        !"
+      enName: Sticky hand
+      ruName: "\u041B\u0438\u043F\u043A\u0430\u044F \u0440\u0443\u043A\u0430"
+  - id: 6
+    level: 29
+    icon: {fileID: 21300000, guid: 4a35436c570d4ee4e87b98a505aeda0b, type: 3}
+    type: 0
+    rare: 0
+    details:
+      enText: New Character !
+      ruText: "\u041D\u043E\u0432\u044B\u0439 \u0413\u0435\u0440\u043E\u0439 !"
+      enName: Blue Ninja
+      ruName: "\u0421\u0438\u043D\u0438\u0439 \u043D\u0438\u043D\u0434\u0437\u044F"
+  - id: 7
+    level: 36
+    icon: {fileID: 21300000, guid: 18086191287d5bb45a2e225f0b29ccb8, type: 3}
+    type: 0
+    rare: 0
+    details:
+      enText: New Character !
+      ruText: "\u041D\u043E\u0432\u044B\u0439 \u0413\u0435\u0440\u043E\u0439 !"
+      enName: Developer
+      ruName: "\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A"
+  - id: 8
+    level: 40
+    icon: {fileID: 21300000, guid: 6aca549b135df474997b695643cc9a24, type: 3}
+    type: 0
+    rare: 0
+    details:
+      enText: New Character !
+      ruText: "\u041D\u043E\u0432\u044B\u0439 \u0413\u0435\u0440\u043E\u0439 !"
+      enName: Bruce
+      ruName: "\u0411\u0440\u044E\u0441"
+  - id: 9
+    level: 47
+    icon: {fileID: 21300000, guid: 86f26235e254fd34787f2e0cb2695e4d, type: 3}
+    type: 0
+    rare: 1
+    details:
+      enText: New Character !
+      ruText: "\u041D\u043E\u0432\u044B\u0439 \u0413\u0435\u0440\u043E\u0439 !"
+      enName: Kido
+      ruName: "\u041A\u0438\u0434\u043E"
+  - id: 10
+    level: 51
+    icon: {fileID: 21300000, guid: 86a388b2cf3841847ab18a365b7d1824, type: 3}
+    type: 0
+    rare: 0
+    details:
+      enText: New Character !
+      ruText: "\u041D\u043E\u0432\u044B\u0439 \u0413\u0435\u0440\u043E\u0439 !"
+      enName: DJ Pop
+      ruName: "\u0414\u0438\u0434\u0436\u0435\u0439 \u041F\u043E\u043F"
+  - id: 11
+    level: 58
+    icon: {fileID: 21300000, guid: 4241413c931530549853f3e82f2819d5, type: 3}
+    type: 0
+    rare: 2
+    details:
+      enText: New Character !
+      ruText: "\u041D\u043E\u0432\u044B\u0439 \u0413\u0435\u0440\u043E\u0439 !"
+      enName: Claw
+      ruName: "\u041A\u043E\u0433\u043E\u0442\u044C"
+  - id: 12
+    level: 62
+    icon: {fileID: 21300000, guid: b48e79c316e7ffe46a55d1b9d2e4e177, type: 3}
+    type: 0
+    rare: 2
+    details:
+      enText: New Character !
+      ruText: "\u041D\u043E\u0432\u044B\u0439 \u0413\u0435\u0440\u043E\u0439 !"
+      enName: Boxer
+      ruName: "\u0411\u043E\u043A\u0441\u0435\u0440"
+  - id: 13
+    level: 69
+    icon: {fileID: 21300000, guid: 87e5b0de230db684e9cff07521133092, type: 3}
+    type: 0
+    rare: 2
+    details:
+      enText: New Character !
+      ruText: "\u041D\u043E\u0432\u044B\u0439 \u0413\u0435\u0440\u043E\u0439 !"
+      enName: Captain
+      ruName: "\u041A\u0430\u043F\u0438\u0442\u0430\u043D"
+  - id: 14
+    level: 73
+    icon: {fileID: 21300000, guid: 753b77ea93f677d4893c047709da071d, type: 3}
+    type: 0
+    rare: 2
+    details:
+      enText: New Character !
+      ruText: "\u041D\u043E\u0432\u044B\u0439 \u0413\u0435\u0440\u043E\u0439 !"
+      enName: Root child
+      ruName: "\u041A\u043E\u0440\u043D\u0435\u0432\u043E\u0439 \u0440\u0435\u0431\u0435\u043D\u043E\u043A"
+  - id: 15
+    level: 80
+    icon: {fileID: 21300000, guid: 8e07f3bb17f9ff041afdcce2f1c4a0d7, type: 3}
+    type: 0
+    rare: 2
+    details:
+      enText: New Character !
+      ruText: "\u041D\u043E\u0432\u044B\u0439 \u0413\u0435\u0440\u043E\u0439 !"
+      enName: Red Hood
+      ruName: "\u041A\u0440\u0430\u0441\u043D\u044B\u0439 \u043A\u0430\u043F\u044E\u0448\u043E\u043D"
+  - id: 2
+    level: 22
+    icon: {fileID: 21300000, guid: d23c2efa735e43a4291d131f0593410e, type: 3}
+    type: 1
+    rare: 0
+    details:
+      enText: New Rope !
+      ruText: "\u041D\u043E\u0432\u0430\u044F \u0412\u0435\u0440\u0435\u0432\u043A\u0430
+        !"
+      enName: Yellow Hook
+      ruName: "\u0416\u0435\u043B\u0442\u044B\u0439 \u043A\u0440\u044E\u043A"
+  - id: 3
+    level: 33
+    icon: {fileID: 21300000, guid: dc50c0a859eb6494bb646451574cb348, type: 3}
+    type: 1
+    rare: 1
+    details:
+      enText: New Rope !
+      ruText: "\u041D\u043E\u0432\u0430\u044F \u0412\u0435\u0440\u0435\u0432\u043A\u0430
+        !"
+      enName: Blue Hook
+      ruName: "\u0421\u0438\u043D\u0438\u0439 \u043A\u0440\u044E\u043A"
+  - id: 4
+    level: 44
+    icon: {fileID: 21300000, guid: 023c7eb269210944c87b32aee87c9438, type: 3}
+    type: 1
+    rare: 0
+    details:
+      enText: New Rope !
+      ruText: "\u041D\u043E\u0432\u0430\u044F \u0412\u0435\u0440\u0435\u0432\u043A\u0430
+        !"
+      enName: Old hook
+      ruName: "\u0421\u0442\u0430\u0440\u044B\u0439 \u043A\u0440\u044E\u043A"
+  - id: 5
+    level: 55
+    icon: {fileID: 21300000, guid: b5cb8fb18f60c064793326d80b7c8fa9, type: 3}
+    type: 1
+    rare: 1
+    details:
+      enText: New Rope !
+      ruText: "\u041D\u043E\u0432\u0430\u044F \u0412\u0435\u0440\u0435\u0432\u043A\u0430
+        !"
+      enName: Tree branches
+      ruName: "\u0412\u0435\u0442\u0432\u0438 \u0434\u0435\u0440\u0435\u0432\u0430"
+  - id: 6
+    level: 66
+    icon: {fileID: 21300000, guid: 3f591224f94188e4eaf56943dee8507d, type: 3}
+    type: 1
+    rare: 2
+    details:
+      enText: New Rope !
+      ruText: "\u041D\u043E\u0432\u0430\u044F \u0412\u0435\u0440\u0435\u0432\u043A\u0430
+        !"
+      enName: Glove
+      ruName: "\u041F\u0435\u0440\u0447\u0430\u0442\u043A\u0430"
+  - id: 7
+    level: 77
+    icon: {fileID: 21300000, guid: 12ab5c97c7ba9bd46a901986a3d7a5b0, type: 3}
+    type: 1
+    rare: 0
+    details:
+      enText: New Rope !
+      ruText: "\u041D\u043E\u0432\u0430\u044F \u0412\u0435\u0440\u0435\u0432\u043A\u0430
+        !"
+      enName: Piston
+      ruName: "\u041F\u043E\u0440\u0448\u0435\u043D\u044C"
